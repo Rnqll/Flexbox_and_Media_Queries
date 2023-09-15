@@ -1,0 +1,29 @@
+.flex-container {
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+margin-top: 50px;
+}
+
+.flex-item{
+    padding: 5px;
+    margin-top: 5px;
+    
+    
+}
+
+
+
+
+@media screen and (max-width: 600px){
+    .flex-container{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        margin-top: 400px;
+    }
+
+    .flex-item{
+        margin-bottom: 70px;
+    }
+}
